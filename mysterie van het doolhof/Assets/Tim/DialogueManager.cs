@@ -30,6 +30,7 @@ public class DialogueManager : MonoBehaviour
 
     public void StartDialogue(Dialogue dialogue)
     {
+        Movement.canMove = false;
         dialogueUI.SetActive(true);  // UI aanzetten
         nameText.text = dialogue.characterName;
         sentences.Clear();
@@ -70,5 +71,6 @@ public class DialogueManager : MonoBehaviour
         dialogueUI.SetActive(false);  // UI verbergen na dialoog
         nameText.text = "";
         dialogueText.text = "";
+        Movement.canMove = true;
     }
 }
