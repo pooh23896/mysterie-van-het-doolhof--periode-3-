@@ -894,7 +894,7 @@ MonoBehaviour:
   moveDir: {x: 0, y: 0, z: 0}
   moveSpeed: 10
   bodyRotate: {x: 0, y: 0, z: 0}
-  rotateSpeed: 100
+  rotateSpeed: 500
   cam: {fileID: 1938786618}
   camRotate: {x: 0, y: 0, z: 0}
 --- !u!136 &916427742
