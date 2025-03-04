@@ -88,5 +88,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a8a864a694e88374982a290b1ebe87a8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  image: {fileID: 0}
+  item: {fileID: 11400000, guid: 51ae01798247ea346b5083dd9dcbacba, type: 2}
+  image: {fileID: 3119168535205016329}
   parentAfterDrag: {fileID: 0}
