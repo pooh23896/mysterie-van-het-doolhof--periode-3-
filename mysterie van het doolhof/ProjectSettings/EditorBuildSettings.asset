@@ -18,7 +18,7 @@ EditorBuildSettings:
     path: Assets/Scenes/cube.unity
     guid: 6291a0e16fe3b554d982d916d3b3339e
   - enabled: 1
-    path: Assets/Scenes/Restart 1.unity
+    path: Assets/Scenes/SaveLoad.unity
     guid: 2d55140a1eb3dbc478cf98408e27efc3
   - enabled: 1
     path: Assets/Scenes/settings.unity
