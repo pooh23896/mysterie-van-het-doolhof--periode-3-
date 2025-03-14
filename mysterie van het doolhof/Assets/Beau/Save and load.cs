@@ -9,7 +9,7 @@ public class SaveandLOad : MonoBehaviour
 
         public void PlayGame()
         {
-            SceneManager.LoadSceneAsync(4);
+            SceneManager.LoadSceneAsync(3);
         }
 
 

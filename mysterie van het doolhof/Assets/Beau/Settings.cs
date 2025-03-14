@@ -8,7 +8,7 @@ public class Settings : MonoBehaviour
 
     public void PlayGame()
     {
-        SceneManager.LoadSceneAsync(5);
+        SceneManager.LoadSceneAsync(4);
     }
 
 

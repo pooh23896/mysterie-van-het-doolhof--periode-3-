@@ -13,10 +13,7 @@ EditorBuildSettings:
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
     path: Assets/Scenes/1.unity
-    guid: 35c00c502f919db4eb21da6f9679f650
-  - enabled: 1
-    path: Assets/Scenes/cube.unity
-    guid: 6291a0e16fe3b554d982d916d3b3339e
+    guid: 0928e897e00c9be45b23d30a9f1147d4
   - enabled: 1
     path: Assets/Scenes/SaveLoad.unity
     guid: 2d55140a1eb3dbc478cf98408e27efc3
