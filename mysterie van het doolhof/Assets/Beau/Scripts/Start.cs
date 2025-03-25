@@ -3,16 +3,15 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class Back : MonoBehaviour
+public class Start : MonoBehaviour
 {
 
     public void PlayGame()
     {
-        SceneManager.LoadSceneAsync(0);
+        SceneManager.LoadSceneAsync(1);
     }
 
 
-
-
+        
+    
 }
-
