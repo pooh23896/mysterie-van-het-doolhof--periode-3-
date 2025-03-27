@@ -24,6 +24,6 @@ public class SaveSystem: MonoBehaviour
     public void DeleteData()
     {
         PlayerPrefs.DeleteKey("Input");
-        PlayerPrefs.DeleteAll();
+  
     }
 }
