@@ -24,15 +24,22 @@ public class Item : ScriptableObject
 
 public enum ItemType
 {
-   Food
+    Food,
+    Drink,
+    Tool
 }
 
 public enum ActionType
 {
-    Eating
+    Eating,
+    Drinking,
+    Building,
+    Crafting
 }
 
 public enum RarityType
 {
-    Rarity
+    common,
+    superrare,
+    legendary
 }
