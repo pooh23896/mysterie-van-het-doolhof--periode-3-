@@ -15,6 +15,7 @@ MonoBehaviour:
   tile: {fileID: 0}
   type: 0
   actionType: 0
-  range: {x: 5, y: 4}
+  rarityType: 0
+  range: {x: 0, y: 0}
   stackable: 1
   image: {fileID: 21300000, guid: 2652fe31a8318cb4e97c5de5fafefe0a, type: 3}
