@@ -9,9 +9,7 @@ public class MouseLook : MonoBehaviour
 
     void Start()
     {
-        // Zorg ervoor dat de cursor verborgen en vergrendeld is
-        Cursor.lockState = CursorLockMode.Locked;
-        Cursor.visible = false;
+    
     }
 
     void Update()
