@@ -15,8 +15,7 @@ public class Movement : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Rigidbody rb = GetComponent<Rigidbody>();
-        rb.freezeRotation = true; // Zorgt ervoor dat de rotatie niet verandert door physics
+        
     }
 
     // Update is called once per frame
