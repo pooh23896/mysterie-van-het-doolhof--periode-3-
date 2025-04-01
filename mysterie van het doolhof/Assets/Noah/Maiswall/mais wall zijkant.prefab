@@ -13,7 +13,6 @@ GameObject:
   - component: {fileID: 7922840883606263707}
   - component: {fileID: -7120253911015435202}
   - component: {fileID: -8572391489082366415}
-  - component: {fileID: 4417878231128229999}
   m_Layer: 0
   m_Name: mais wall zijkant
   m_TagString: Untagged
@@ -111,7 +110,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.1, y: 2.0016992, z: 1.6225923}
+  m_Size: {x: 0.63, y: 2.0016992, z: 1.6225923}
   m_Center: {x: 0.02, y: 0.9326174, z: 0.75347024}
 --- !u!65 &-8572391489082366415
 BoxCollider:
@@ -132,26 +131,5 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1.5852193, y: 2.0016992, z: 0.1}
+  m_Size: {x: 1.5852193, y: 2.0016992, z: 0.6}
   m_Center: {x: -0.72333306, y: 0.9326174, z: 0.02}
---- !u!65 &4417878231128229999
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8498485717635307093}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1.5852196, y: 2.0016992, z: 0.1}
-  m_Center: {x: -0.72333324, y: 0.9326174, z: 0.02}

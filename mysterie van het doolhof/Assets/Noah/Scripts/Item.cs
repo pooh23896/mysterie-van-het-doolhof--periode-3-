@@ -39,7 +39,7 @@ public enum ActionType
 
 public enum RarityType
 {
-    common,
-    superrare,
-    legendary
+    Common,
+    Rare,
+    Legendary
 }
