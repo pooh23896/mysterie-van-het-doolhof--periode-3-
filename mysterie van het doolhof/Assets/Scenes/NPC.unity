@@ -245,13 +245,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueManager: {fileID: 1203684028}
   dialogue:
-    characterName: NPC
-    sentences:
-    - 'Jo gozer
-
-'
-    - het werkt
-    - ga nu verder
+    lines: []
 --- !u!54 &77317476
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -985,74 +979,6 @@ Transform:
   - {fileID: 1938786618}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &974809285
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: -8679921383154817045, guid: e75214a3cd96acd44a7c3e0a871d94d0,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -2.24
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: e75214a3cd96acd44a7c3e0a871d94d0,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -1.61
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: e75214a3cd96acd44a7c3e0a871d94d0,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -4.474
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: e75214a3cd96acd44a7c3e0a871d94d0,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.43088323
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: e75214a3cd96acd44a7c3e0a871d94d0,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0.4308833
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: e75214a3cd96acd44a7c3e0a871d94d0,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0.56066
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: e75214a3cd96acd44a7c3e0a871d94d0,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0.56066
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: e75214a3cd96acd44a7c3e0a871d94d0,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 90
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: e75214a3cd96acd44a7c3e0a871d94d0,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: e75214a3cd96acd44a7c3e0a871d94d0,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: -104.913
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: e75214a3cd96acd44a7c3e0a871d94d0,
-        type: 3}
-      propertyPath: m_Name
-      value: maiskolf
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: e75214a3cd96acd44a7c3e0a871d94d0, type: 3}
 --- !u!1 &1148511782
 GameObject:
   m_ObjectHideFlags: 0
@@ -1159,7 +1085,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueUI: {fileID: 487264032}
   dialogueText: {fileID: 763068586}
-  nameText: {fileID: 763068586}
   nextButton: {fileID: 2095771501}
 --- !u!4 &1203684029
 Transform:
@@ -1397,10 +1322,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueManager: {fileID: 1203684028}
   dialogue:
-    characterName: NPC Extra
-    sentences:
-    - hoi
-    - het werkt
+    lines: []
 --- !u!54 &1922698460
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1891,8 +1813,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueManager: {fileID: 0}
   dialogue:
-    characterName: 
-    sentences: []
+    lines: []
 --- !u!114 &2135906636
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1907,8 +1828,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueManager: {fileID: 0}
   dialogue:
-    characterName: 
-    sentences: []
+    lines: []
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -1922,4 +1842,3 @@ SceneRoots:
   - {fileID: 637274557}
   - {fileID: 916427745}
   - {fileID: 1922698464}
-  - {fileID: 974809285}
