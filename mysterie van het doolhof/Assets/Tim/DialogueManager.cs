@@ -9,57 +9,54 @@ public class DialogueManager : MonoBehaviour
     [System.Serializable]
     public class Dialogue
     {
-        public string characterName;
         [TextArea(3, 5)]
-        public string[] sentences;
+        public string[] lines;
     }
 
-    public GameObject dialogueUI;  // UI Paneel om aan/uit te zetten
+    public GameObject dialogueUI;
     public TextMeshProUGUI dialogueText;
-    public TextMeshProUGUI nameText;
     public Button nextButton;
 
-    private Queue<string> sentences;
+    private Queue<string> dialogueQueue;
 
     void Start()
     {
-        sentences = new Queue<string>();
-        dialogueUI.SetActive(false);  // Zorg dat de UI uit staat bij start
-        nextButton.onClick.AddListener(DisplayNextSentence);
+        dialogueQueue = new Queue<string>();
+        dialogueUI.SetActive(false);
+        nextButton.onClick.AddListener(DisplayNextLine);
     }
 
     public void StartDialogue(Dialogue dialogue)
     {
         Movement.canMove = false;
-        dialogueUI.SetActive(true);  // UI aanzetten
-        nameText.text = dialogue.characterName;
-        sentences.Clear();
+        dialogueUI.SetActive(true);
+        dialogueQueue.Clear();
 
-        foreach (string sentence in dialogue.sentences)
+        foreach (string line in dialogue.lines)
         {
-            sentences.Enqueue(sentence);
+            dialogueQueue.Enqueue(line);
         }
 
-        DisplayNextSentence();
+        DisplayNextLine();
     }
 
-    public void DisplayNextSentence()
+    public void DisplayNextLine()
     {
-        if (sentences.Count == 0)
+        if (dialogueQueue.Count == 0)
         {
             EndDialogue();
             return;
         }
 
-        string sentence = sentences.Dequeue();
-        StopAllCoroutines();
-        StartCoroutine(TypeSentence(sentence));
+        string line = dialogueQueue.Dequeue();
+        StopAllCoroutines();  // Een courotine gaat over meerder frames heen
+        StartCoroutine(TypeLine(line));
     }
 
-    IEnumerator TypeSentence(string sentence)
+    IEnumerator TypeLine(string line) // yield return 
     {
         dialogueText.text = "";
-        foreach (char letter in sentence.ToCharArray())
+        foreach (char letter in line.ToCharArray())
         {
             dialogueText.text += letter;
             yield return new WaitForSeconds(0.03f);
@@ -68,9 +65,8 @@ public class DialogueManager : MonoBehaviour
 
     void EndDialogue()
     {
-        dialogueUI.SetActive(false);  // UI verbergen na dialoog
-        nameText.text = "";
+        dialogueUI.SetActive(false);
         dialogueText.text = "";
         Movement.canMove = true;
     }
-}
+} 
