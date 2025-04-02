@@ -28,7 +28,7 @@ public class DialogueManager : MonoBehaviour
 
     public void StartDialogue(Dialogue dialogue)
     {
-        CharacterMovement.canMove = false;
+        PlayerMovement.canMove = false;
         dialogueUI.SetActive(true);
         dialogueQueue.Clear();
 
@@ -67,6 +67,6 @@ public class DialogueManager : MonoBehaviour
     {
         dialogueUI.SetActive(false);
         dialogueText.text = "";
-        CharacterMovement.canMove = true;
+        PlayerMovement.canMove = true;
     }
 } 
