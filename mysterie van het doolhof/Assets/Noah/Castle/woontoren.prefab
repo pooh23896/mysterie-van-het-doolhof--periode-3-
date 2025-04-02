@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 3749806305550547058}
   - component: {fileID: 8193687123541009808}
   m_Layer: 0
-  m_Name: slaaptoren
+  m_Name: woontoren
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
