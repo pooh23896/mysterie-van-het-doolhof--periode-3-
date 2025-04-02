@@ -11,10 +11,10 @@ public class Save : MonoBehaviour
     public void save()
 
     {
-        var xPos = player.transform.position.x;
+        var xPos = player.transform.position.x;   // coördinaten worden opgehaald position 
         var yPos = player.transform.position.y;
         var zPos = player.transform.position.z;
-        PlayerPrefs.SetFloat("X", xPos);
+        PlayerPrefs.SetFloat("X", xPos);        // waarden in opgeslagen
         PlayerPrefs.SetFloat("Y", yPos);
         PlayerPrefs.SetFloat("Z", zPos);
     }
@@ -23,7 +23,7 @@ public class Save : MonoBehaviour
 
         public void LoadPosition()
     {
-        player.transform.position = new Vector3(PlayerPrefs.GetFloat("X"),PlayerPrefs.GetFloat("Y"),PlayerPrefs.GetFloat("Z"));       
+      player.transform.position = new Vector3(PlayerPrefs.GetFloat("X"),PlayerPrefs.GetFloat("Y"),PlayerPrefs.GetFloat("Z"));       // worden de opgeslagen waarden opgehaald
 
     }
  
