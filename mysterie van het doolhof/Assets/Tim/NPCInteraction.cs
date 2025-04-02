@@ -20,20 +20,21 @@ public class NPCInteraction : MonoBehaviour
         dialogueManager.StartDialogue(dialogue);
     }
 
-    private void OnTriggerEnter(Collider other)
+    private void OnTriggerEnter(Collider player)
     {
-        if (other.CompareTag("Player"))
+        if (player.CompareTag("Player"))
         {
             isPlayerNear = true;
             Debug.Log("Druk op [E] om te praten.");
         }
     }
 
-    private void OnTriggerExit(Collider other)
+    private void OnTriggerExit(Collider player)
     {
-        if (other.CompareTag("Player"))
+        if (player.CompareTag("Player"))
         {
             isPlayerNear = false;
+            Debug.Log("");
         }
     }
 }
