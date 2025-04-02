@@ -5935,13 +5935,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueManager: {fileID: 1595521973}
   dialogue:
-    characterName: NPC
-    sentences:
-    - 'Jo gozer
-
-'
-    - het werkt
-    - ga nu verder
+    lines: []
 --- !u!136 &958730999
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -8909,12 +8903,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c70415c0e995fc445a08aa24d512e6d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveDir: {x: 0, y: 0, z: 0}
   moveSpeed: 2
-  bodyRotate: {x: 0, y: 0, z: 0}
-  rotateSpeed: 200
-  cam: {fileID: 830182955}
-  camRotate: {x: 0, y: 0, z: 0}
+  gravity: -9.81
 --- !u!136 &1458206283
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -10664,7 +10654,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueUI: {fileID: 1253345030}
   dialogueText: {fileID: 1621263879}
-  nameText: {fileID: 1621263879}
   nextButton: {fileID: 1343690979}
 --- !u!4 &1595521974
 Transform:
@@ -11763,8 +11752,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueManager: {fileID: 0}
   dialogue:
-    characterName: 
-    sentences: []
+    lines: []
 --- !u!114 &1699521561
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11779,8 +11767,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueManager: {fileID: 0}
   dialogue:
-    characterName: 
-    sentences: []
+    lines: []
 --- !u!114 &1699521562
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13610,10 +13597,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueManager: {fileID: 1595521973}
   dialogue:
-    characterName: NPC Extra
-    sentences:
-    - hoi
-    - het werkt
+    lines: []
 --- !u!54 &1998218589
 Rigidbody:
   m_ObjectHideFlags: 0
