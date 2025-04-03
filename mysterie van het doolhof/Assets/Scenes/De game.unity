@@ -5138,6 +5138,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   wallToRemove: {fileID: 1125192484}
+  wallName: 2
 --- !u!4 &412147126 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6635616546657512869, guid: 0dc947f5a18f4844e9609bd06c50bf0e,
@@ -19472,11 +19473,6 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 623925122563529075, guid: 00f31a43e4461ee42ab9c4bd42f9a57d,
         type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1.2
-      objectReference: {fileID: 0}
-    - target: {fileID: 623925122563529075, guid: 00f31a43e4461ee42ab9c4bd42f9a57d,
-        type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.1719344
       objectReference: {fileID: 0}
@@ -30920,6 +30916,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   wallToRemove: {fileID: 1368746585}
+  wallName: 3
 --- !u!4 &2063137545 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6635616546657512869, guid: 0dc947f5a18f4844e9609bd06c50bf0e,
@@ -31450,6 +31447,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   wallToRemove: {fileID: 223132413}
+  wallName: 1
 --- !u!65 &2095843315
 BoxCollider:
   m_ObjectHideFlags: 0
