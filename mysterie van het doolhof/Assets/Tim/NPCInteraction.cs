@@ -18,6 +18,7 @@ public class NPCInteraction : MonoBehaviour
     private void StartConversation()
     {
         dialogueManager.StartDialogue(dialogue);
+        
     }
 
     private void OnTriggerEnter(Collider player)
@@ -37,4 +38,5 @@ public class NPCInteraction : MonoBehaviour
             Debug.Log("");
         }
     }
+    
 }

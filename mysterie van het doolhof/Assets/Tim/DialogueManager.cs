@@ -29,6 +29,7 @@ public class DialogueManager : MonoBehaviour
     public void StartDialogue(Dialogue dialogue)
     {
         PlayerMovement.canMove = false;
+        FindObjectOfType<MouseLook>().LockCamera();
         dialogueUI.SetActive(true);
         dialogueQueue.Clear();
 
@@ -68,5 +69,6 @@ public class DialogueManager : MonoBehaviour
         dialogueUI.SetActive(false);
         dialogueText.text = "";
         PlayerMovement.canMove = true;
+        FindObjectOfType<MouseLook>().UnlockCamera();
     }
 } 
