@@ -28,16 +28,16 @@ public class Save : MonoBehaviour
     }
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.G)) // Druk op "S" om op te slaan
+        if (Input.GetKeyDown(KeyCode.G)) // Druk op "G" om op te slaan
         {
             save();
-            Debug.Log("Spelerpositie opgeslagen!");
+            print ("Spelerpositie opgeslagen!");
         }
 
         if (Input.GetKeyDown(KeyCode.L)) // Druk op "L" om te laden
         {
             LoadPosition();
-            Debug.Log("Spelerpositie geladen!");  
+            print("Spelerpositie geladen!");  
         }
     }
 
