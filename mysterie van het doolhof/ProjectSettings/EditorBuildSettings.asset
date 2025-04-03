@@ -9,10 +9,10 @@ EditorBuildSettings:
     path: Assets/Scenes/Start menu.unity
     guid: 4764e94679019724e9c39fd4efb32b3d
   - enabled: 1
-    path: Assets/Scenes/Inventory.unity
+    path: Assets/Scenes/De game.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
-    path: Assets/Scenes/Start.unity
+    path: Assets/Scenes/Beau.unity
     guid: 0db03e0ae47b1584da058db0cb3ba05d
   - enabled: 1
     path: Assets/Scenes/SaveLoad.unity
