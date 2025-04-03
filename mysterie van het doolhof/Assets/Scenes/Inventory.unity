@@ -8399,15 +8399,16 @@ MonoBehaviour:
   dialogueManager: {fileID: 1595521973}
   dialogue:
     lines:
-    - Hallo!
+    - Hallo, ik vertel alles wat je moet weten om de game te spelen.
     - Om het einde van dit doolhof te bereiken.
     - Moet je drie knoppen in drukken.
     - Elke keer als je een knop indrukt-
-    - dan gaat er een muur open.
+    - gaat er een muur open.
     - Vind de uitgang en je komt uit bij het kasteel.
     - Als je op G drukt save je je plek
     - en met L load je weer op de plek waar je hebt gesaved.
     - Als je op I drukt dan open en sluit je de inventory.
+    - Als laatste als je op ESC druk komt je muis weer tervoorschijn.
     - Veel Succes!
 --- !u!136 &958730999
 CapsuleCollider:
