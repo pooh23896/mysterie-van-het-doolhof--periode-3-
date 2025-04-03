@@ -8213,6 +8213,8 @@ MonoBehaviour:
     - Elke keer als je een knop indrukt-
     - dan gaat er een muur open.
     - Vind de uitgang en je komt uit bij het kasteel.
+    - Als je op G drukt save je je plek.
+    - en met L load je weer op de plek waar je hebt gesaved.
     - Veel Succes!
 --- !u!136 &958730999
 CapsuleCollider:
@@ -16398,7 +16400,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -605, y: -265}
+  m_AnchoredPosition: {x: -605, y: -119}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1621263878
@@ -16492,7 +16494,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: -207.77327, w: -55.754704}
+  m_margin: {x: 0, y: 1.8868103, z: -263.1889, w: -55.754704}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
