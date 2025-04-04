@@ -10,8 +10,7 @@ public class MouseLook : MonoBehaviour
 
     void Start()
     {
-        Cursor.lockState = CursorLockMode.Locked; // Cursor verbergen bij start
-        Cursor.visible = false;
+        
     }
 
     void Update()
@@ -37,15 +36,15 @@ public class MouseLook : MonoBehaviour
     public void LockCamera()
     {
         canMove = false;
-        Cursor.lockState = CursorLockMode.None; // Maak de muis zichtbaar
-        Cursor.visible = true;
+        
+        
     }
 
     // Functie om de camera te ontgrendelen (na het gesprek of als de inventory sluit)
     public void UnlockCamera()
     {
         canMove = true;
-        Cursor.lockState = CursorLockMode.Locked; // Verberg de muis weer
-        Cursor.visible = false;
+        
+        
     }
 }

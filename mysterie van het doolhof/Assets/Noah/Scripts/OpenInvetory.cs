@@ -10,8 +10,7 @@ public class OpenInventory : MonoBehaviour
     {
         // Zorgt dat de inventory gesloten is bij de start van het spel
         inventoryUI.SetActive(false);  // Inventory is gesloten bij starten
-        Cursor.lockState = CursorLockMode.Locked;  // Vergrendelt de cursor
-        Cursor.visible = false;  // Verbergt de cursor
+
         mouseLook = FindObjectOfType<MouseLook>(); // Vindt de camera controller
     }
 
@@ -45,8 +44,8 @@ public class OpenInventory : MonoBehaviour
 
     void LockCursor()
     {
-        Cursor.lockState = CursorLockMode.None;
-        Cursor.visible = true;
+      
+       
         if (mouseLook != null)
         {
             mouseLook.LockCamera(); // Camera beweging wordt uitgeschakeld
@@ -55,8 +54,8 @@ public class OpenInventory : MonoBehaviour
 
     void UnlockCursor()
     {
-        Cursor.lockState = CursorLockMode.Locked;
-        Cursor.visible = false;
+
+     
         if (mouseLook != null)
         {
             mouseLook.UnlockCamera(); // Camera beweging wordt ingeschakeld
